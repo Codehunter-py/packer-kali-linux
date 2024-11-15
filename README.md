@@ -10,6 +10,8 @@ Kali Linux image that is configured and ready for use.
 * Clone repository
 * Enter repository directory
 * Modify `scripts/user.sh` to reflect passwords and ssh public keys you want set up in the system
+* Run `packer init` on the plugins configuration
+ *  `packer init plugins.pkr.hcl`
 * Run `packer build` on the build configuration
  * `packer build kali.json`
 * Finished VM image will be in `bin/`
